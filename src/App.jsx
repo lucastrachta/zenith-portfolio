@@ -2,8 +2,8 @@ import "./App.css";
 import dentista from "./assets/dentista3.jpg";
 import { motion } from "framer-motion";
 import ecommerce from "./assets/ecommerce.jpg"; 
-  
-import gym from "./assets/gym.jpg";  
+import barberia1 from "./assets/barberia1.jpg"
+
 import login2 from "./assets/login2.jpg"
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.8 }}
   >
-    <h1>I build websites that get clients</h1>
+    <h1> Landing Pages That Convert</h1>
     <p>Modern, fast and high-converting websites for businesses</p>
 
     <motion.a
@@ -67,9 +67,9 @@ function App() {
   transition={{ duration: 0.6 }}
   viewport={{ once: true }}
 >
-  <img src= {gym} />
+  <img src= {barberia1} />
 
-  <h3>Landing Pages</h3>
+  <h3> Landing Pages</h3>
             <p>Designed to convert visitors into clients</p>
 
   <a href="https://wa.me/5491123456789" className="btn">
@@ -230,6 +230,27 @@ function App() {
         </div>
       </section>
 
+ {/* PROCESS */}
+      <section className="section">
+        <h2>Process</h2>
+
+        <div className="process">
+          <p>01. Research</p>
+          <p>02. Design</p>
+          <p>03. Development</p>
+          <p>04. Launch</p>
+        </div>
+      </section>
+
+
+ {/* ABOUT */}
+      <section className="section">
+        <h2>About</h2>
+        <p className="about">
+          I'm a frontend developer behind Zenith Labs, <br></br> focused on building 
+          modern and high-performing web experiences.
+        </p>
+      </section>
 
 <section className="section">
   <h2>What Clients Say</h2>
