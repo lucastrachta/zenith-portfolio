@@ -3,8 +3,12 @@ import dentista from "./assets/dentista3.jpg";
 import { motion } from "framer-motion";
 import ecommerce from "./assets/ecommerce.jpg"; 
 import barberia1 from "./assets/barberia1.jpg"
-
+import gym10 from "./assets/gym10.jpg"
+import gym11 from "./assets/gym11.jpeg"
+import gym12 from "./assets/gym12.webp"
 import login2 from "./assets/login2.jpg"
+import whatsapp4 from "./assets/whatsapp4.jpg"
+ import whatsapp5 from "./assets/whatsapp5.jpg"
 
 function App() {
   return (
@@ -16,7 +20,7 @@ function App() {
   {/* NAV */}
       <nav className="nav">
         <h2>Zenith Labs</h2>
-        <a href="#contact" className="btn">Get Started</a>
+        <a href=" https://wa.me/5493705013558?text=Hola%20quiero%20info%20del%20servicio" className="btn">Get Started</a>
       </nav>
 
 
@@ -38,7 +42,7 @@ function App() {
     <p>Modern, fast and high-converting websites for businesses</p>
 
     <motion.a
-      href="https://wa.me/5491123456789"
+      href=" https://wa.me/5493705013558?text=Hola%20quiero%20info%20del%20servicio"
       className="btn big"
       whileHover={{ scale: 1.05 }}
     >
@@ -72,7 +76,7 @@ function App() {
   <h3> Landing Pages</h3>
             <p>Designed to convert visitors into clients</p>
 
-  <a href="https://wa.me/5491123456789" className="btn">
+  <a href=" https://wa.me/5493705013558?text=Hola%20quiero%20info%20del%20servicio" className="btn">
     Learn More
   </a>
 </motion.div>
@@ -99,7 +103,7 @@ function App() {
    <h3>Business Websites</h3>
             <p>Professional websites for your brand</p>
 
-  <a href="https://wa.me/5491123456789" className="btn">
+  <a href=" https://wa.me/5493705013558?text=Hola%20quiero%20info%20del%20servicio" className="btn">
     Learn More
   </a>
 </motion.div>
@@ -127,7 +131,7 @@ function App() {
     <h3>Fullstack Apps</h3>
             <p>Custom systems with login and admin panels</p>
 
-  <a href="https://wa.me/5491123456789" className="btn">
+  <a href=" https://wa.me/5493705013558?text=Hola%20quiero%20info%20del%20servicio" className="btn">
     Learn More
   </a>
 </motion.div>
@@ -164,10 +168,10 @@ function App() {
     <img src={dentista} />
             <h3>Dentist Website</h3>
  
-
-  {/* <a href="https://wa.me/5491123456789" className="btn">
-    Learn More
-  </a> */}
+<br></br>
+  <a href=" https://wa.me/5493705013558?text=Hola%20quiero%20info%20del%20servicio" className="btn">
+    View Proyect
+  </a>
 </motion.div>
 
 
@@ -180,12 +184,12 @@ function App() {
   transition={{ duration: 0.6 }}
   viewport={{ once: true }}
 >
-    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b" />
+    <img src={gym12} />
             <h3>Gym Website</h3>
-{/* 
-  <a href="https://wa.me/5491123456789" className="btn">
-    Learn More
-  </a> */}
+<br></br>
+  <a href=" https://wa.me/5493705013558?text=Hola%20quiero%20info%20del%20servicio" className="btn">
+    View Proyect
+  </a>
 </motion.div>
 
 
@@ -308,15 +312,48 @@ function App() {
       {/* CTA */}
       <section className="cta" id="contact">
         <h2>Ready to grow your business?</h2>
-        <a href="https://wa.me/5491123456789" className="btn big">
+        <a href=" https://wa.me/5493705013558?text=Hola%20quiero%20info%20del%20servicio" className="btn big">
           Contact Now
         </a>
       </section>
 
       {/* WHATSAPP */}
-      <a href="https://wa.me/5491123456789" className="whatsapp">
-        💬
-      </a>
+      {/* <a href="https://wa.me/5491123456789" className="whatsapp">
+  <img src={whatsapp4} alt="WhatsApp"className="whatsapp-icon" /> 
+    
+      </a>   */}
+     
+  <div className="whatsapp-container">
+        
+        <motion.div
+          className="whatsapp-tooltip"
+          initial={{ opacity: 0, x: 20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: 1, duration: 0.5 }}
+        >
+      Chat with us on WhatsApp
+        </motion.div>
+
+        <motion.a
+          href="https://wa.me/5493705013558?text=Hola%20quiero%20info%20del%20servicio"
+          className="whatsapp-btn"
+          initial={{ scale: 1 }}
+          animate={{ scale: [1, 1.1, 1] }}
+          transition={{
+            duration: 1.5,
+            repeat: Infinity,
+            repeatDelay: 2
+          }}
+          whileHover={{ scale: 1.15 }}
+        >
+          {/* aqui abajo va la imagen y puedo poner texto tambien */}
+          <img src={whatsapp4} alt="WhatsApp" />
+        </motion.a>
+
+      </div>
+
+
+
 
     </div>
   </>);
