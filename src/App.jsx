@@ -20,7 +20,7 @@ function App() {
   {/* NAV */}
       <nav className="nav">
         <h2>Zenith Labs</h2>
-        <a href=" https://wa.me/5493705013558?text=Hola%20quiero%20info%20del%20servicio" className="btn">Get Started</a>
+        <a href="https://wa.me/5493705013558?text=Hello%20I%20want%20to%20improve%20my%20website" className="btn">Get Started</a>
       </nav>
 
 
@@ -42,7 +42,7 @@ function App() {
     <p>Modern, fast and high-converting websites for businesses</p>
 
     <motion.a
-      href=" https://wa.me/5493705013558?text=Hola%20quiero%20info%20del%20servicio"
+      href="https://wa.me/5493705013558?text=Hello%20I%20want%20to%20improve%20my%20website"
       className="btn big"
       whileHover={{ scale: 1.05 }}
     >
@@ -76,7 +76,7 @@ function App() {
   <h3> Landing Pages</h3>
             <p>Designed to convert visitors into clients</p>
 
-  <a href=" https://wa.me/5493705013558?text=Hola%20quiero%20info%20del%20servicio" className="btn">
+  <a href="  https://wa.me/5493705013558?text=Hello%20I%20want%20more%20clients%20for%20my%20business" className="btn">
     Learn More
   </a>
 </motion.div>
@@ -103,7 +103,7 @@ function App() {
    <h3>Business Websites</h3>
             <p>Professional websites for your brand</p>
 
-  <a href=" https://wa.me/5493705013558?text=Hola%20quiero%20info%20del%20servicio" className="btn">
+  <a href="https://wa.me/5493705013558?text=Hello%20I%20want%20more%20clients%20for%20my%20business" className="btn">
     Learn More
   </a>
 </motion.div>
@@ -131,7 +131,7 @@ function App() {
     <h3>Fullstack Apps</h3>
             <p>Custom systems with login and admin panels</p>
 
-  <a href=" https://wa.me/5493705013558?text=Hola%20quiero%20info%20del%20servicio" className="btn">
+  <a href="https://wa.me/5493705013558?text=Hello%20I%20want%20more%20clients%20for%20my%20business" className="btn">
     Learn More
   </a>
 </motion.div>
@@ -169,7 +169,7 @@ function App() {
             <h3>Dentist Website</h3>
  
 <br></br>
-  <a href=" https://wa.me/5493705013558?text=Hola%20quiero%20info%20del%20servicio" className="btn">
+  <a href="https://wa.me/5493705013558?text=Hello%20I%20like%20your%20work%20and%20I%20want%20something%20similar" className="btn">
     View Proyect
   </a>
 </motion.div>
@@ -187,7 +187,7 @@ function App() {
     <img src={gym12} />
             <h3>Gym Website</h3>
 <br></br>
-  <a href=" https://wa.me/5493705013558?text=Hola%20quiero%20info%20del%20servicio" className="btn">
+  <a href="https://wa.me/5493705013558?text=Hello%20I%20like%20your%20work%20and%20I%20want%20something%20similar" className="btn">
     View Proyect
   </a>
 </motion.div>
@@ -312,7 +312,7 @@ function App() {
       {/* CTA */}
       <section className="cta" id="contact">
         <h2>Ready to grow your business?</h2>
-        <a href=" https://wa.me/5493705013558?text=Hola%20quiero%20info%20del%20servicio" className="btn big">
+        <a href="https://wa.me/5493705013558?text=Hello%20I%20want%20to%20start%20a%20project%20with%20you" className="btn big">
           Contact Now
         </a>
       </section>
@@ -335,7 +335,7 @@ function App() {
         </motion.div>
 
         <motion.a
-          href="https://wa.me/5493705013558?text=Hola%20quiero%20info%20del%20servicio"
+          href="https://wa.me/5493705013558?text=Hello%20I%20want%20to%20start%20a%20project%20with%20you"
           className="whatsapp-btn"
           initial={{ scale: 1 }}
           animate={{ scale: [1, 1.1, 1] }}
