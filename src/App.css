@@ -257,7 +257,9 @@ WHATSAPP
 }
 .whatsapp-icon {border-radius: 27%;
 width:65px  } 
+
 /* ultimo avance grafico con ia cartelsito y boton wsp que se mueve*/
+
 .whatsapp-container {
   position: fixed;
   bottom: 20px;
@@ -329,7 +331,7 @@ width:65px  }
   }
 }
 
-
+/* hasta aqui la parte de whatsapp la grafica, ahora si el responsive abajo */
 
 
 
@@ -365,10 +367,21 @@ width:65px  }
   transition: 0.3s;
 }
 
-/* botones pro */
+/* botones pro  ESTOS SON LOS BOTONES LO PRINCIPAL DE LOS BOTONES*/
 .btn {
   background: linear-gradient(90deg, #00c6ff, #0072ff);
   transition: 0.3s;
+}
+
+.btn-2 {
+  background: linear-gradient(90deg, #00C6FF, #0072FF);
+ display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border-radius:17px;
+    padding: 10px;
+transition: 0.3s;
+
 }
 
 .btn:hover {

@@ -9,6 +9,8 @@ import gym12 from "./assets/gym12.webp"
 import login2 from "./assets/login2.jpg"
 import whatsapp4 from "./assets/whatsapp4.jpg"
  import whatsapp5 from "./assets/whatsapp5.jpg"
+import gym from "./assets/gym.jpg"
+
 
 function App() {
   return (
@@ -148,15 +150,98 @@ function App() {
         </div>
       </section>
 
-      {/* PROJECTS */}
+      {/* PROJECTS */}{/* primera tarjeta */}
       <section className="section">
         <h2>Selected Work</h2>
 
         <div className="grid">
 
+<motion.div
+  className="card apple"
+  initial={{ opacity: 0, y: 50 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.97 }}
+  transition={{ duration: 0.6 }}
+  viewport={{ once: true }}
+>
+  <img src={dentista} alt="Dentist Website" />
+
+  <h3>Dentist Website</h3>
+  <p>High-converting website for a dental clinic.</p>
+
+  <div className="card-buttons">
+    
+    {/* VER PROYECTO */}
+    <a
+      href="https://dental-clinic-jet-zeta.vercel.app"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn-2 btn"
+    >
+      View Live
+    </a>
+
+    {/* COMPRAR */}
+    <a
+      href="https://wa.me/5493705013558?text=Hi%2C%20I%20like%20this%20dentist%20website.%20Can%20you%20build%20something%20similar%3F"
+      target="_blank"
+      className="btn-2 btn"
+    >
+      Get This 
+    </a>
+
+  </div>
+</motion.div>
+
+{/* segunda tarjeta */}
 
 
-  <motion.div
+
+<motion.div
+  className="card apple"
+  initial={{ opacity: 0, y: 50 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.97 }}
+  transition={{ duration: 0.6 }}
+  viewport={{ once: true }}
+>
+  <img src={gym} alt="Gym Website" />
+
+  <h3>Gym Website</h3>
+  <p>High-converting landing page for a fitness business.</p>
+
+  <div className="card-buttons">
+    
+    {/* VER WEB */}
+    <a
+      href="https://fitness-landing-weld.vercel.app"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn-2 btn"
+    >
+      View Live
+    </a>
+
+    {/* CTA VENTA */}
+    <a
+      href="https://wa.me/5493705013558?text=Hi%2C%20I%20like%20this%20gym%20website.%20Can%20you%20build%20something%20similar%3F"
+      target="_blank"
+      className="btn-2 btn"
+    >
+      Get This
+    </a>
+
+  </div>
+</motion.div>
+
+
+
+
+
+{/* tarjetas anteriores basicas comentadas */}
+  {/* <motion.div
   className="card apple"
   initial={{ opacity: 0, y: 50 }}
   whileInView={{ opacity: 1, y: 0 }}
@@ -172,10 +257,10 @@ function App() {
   <a href="https://wa.me/5493705013558?text=Hello%20I%20like%20your%20work%20and%20I%20want%20something%20similar" className="btn">
     View Proyect
   </a>
-</motion.div>
+</motion.div> */}
 
 
- <motion.div
+ {/* <motion.div
   className="card apple"
   initial={{ opacity: 0, y: 50 }}
   whileInView={{ opacity: 1, y: 0 }}
@@ -190,7 +275,9 @@ function App() {
   <a href="https://wa.me/5493705013558?text=Hello%20I%20like%20your%20work%20and%20I%20want%20something%20similar" className="btn">
     View Proyect
   </a>
-</motion.div>
+</motion.div> */}
+
+
 
 
  {/* <div className="card">
@@ -199,18 +286,10 @@ function App() {
           </div>
 
 
-
-
-
-
-
           <div className="card">
             <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b" />
             <h3>Gym Website</h3>
           </div> */}
-
-
-
 
 
 
@@ -321,7 +400,7 @@ function App() {
       {/* <a href="https://wa.me/5491123456789" className="whatsapp">
   <img src={whatsapp4} alt="WhatsApp"className="whatsapp-icon" /> 
     
-      </a>   */}
+      // </a>   */}
      
   <div className="whatsapp-container">
         
